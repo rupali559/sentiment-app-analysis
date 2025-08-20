@@ -23,7 +23,7 @@ async function analyzeSentiment() {
     //     });
 
     try {
-        const response = await fetch('https://sentiment-app-analysis-frontend.onrender.com', {  // <-- use backend URL
+        const response = await fetch('https://sentiment-app-analysis.onrender.com', {  // <-- use backend URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
