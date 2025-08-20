@@ -34,7 +34,7 @@ async function analyzeSentiment() {
         const data = await response.json();
         
         // Update UI with result
-        resultDiv.textContent = `Sentiment: ${data.sentiment} (${(data.score * 100).toFixed(1)}% confidence)`;
+        resultDiv.textContent = `Sentiment: ${data.sentiment} ;
         
         // Apply color based on sentiment
         if (data.sentiment === 'Positive') {
